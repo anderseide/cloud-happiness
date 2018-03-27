@@ -1,0 +1,98 @@
+
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations/$entity",
+    "@odata.type": "#microsoft.graph.windows10NetworkBoundaryConfiguration",
+    "description": "Network Boundaries used to configure services like Application Guard and Windows Information Protection",
+    "displayName": "Win10 - Network Boundary - Baseline",
+    "windowsNetworkIsolationPolicy": {
+        "enterpriseNetworkDomainNames": [],
+        "enterpriseCloudResources": [
+            {
+                "ipAddressOrFQDN": "<tenantName>.sharepoint.com",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": "<tenantName>-my.sharepoint.com",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": ".office365.com",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": "portal.office.com",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": ".yammer.com",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": ".yammerusercontent.com",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": ".assets-yammer.com",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": ".outlookgroups.ms",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": ".visualstudio.com",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": ".dynamics.com",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": "<tenantName>-files.sharepoint.com",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": "<tenantName>-myfiles.sharepoint.com",
+                "proxy": null
+            }
+        ],
+        "enterpriseIPRanges": [],
+        "enterpriseInternalProxyServers": [],
+        "enterpriseIPRangesAreAuthoritative": false,
+        "enterpriseProxyServers": [],
+        "enterpriseProxyServersAreAuthoritative": false,
+        "neutralDomainResources": [
+            "api.login.microsoftonline.com",
+            "api.passwordreset.microsoftonline.com",
+            "becws.microsoftonline.com",
+            "clientconfig.microsoftonline-p.net",
+            "companymanager.microsoftonline.com",
+            "device.login.microsoftonline.com",
+            "graph.microsoft.com",
+            "hip.microsoftonline-p.net",
+            "hipservice.microsoftonline.com",
+            "login.microsoft.com",
+            "login.microsoftonline.com",
+            "logincert.microsoftonline.com",
+            "loginex.microsoftonline.com",
+            "login-us.microsoftonline.com",
+            "login.microsoftonline-p.com",
+            "login.windows.net",
+            "nexus.microsoftonline-p.com",
+            "passwordreset.microsoftonline.com",
+            "provisioningapi.microsoftonline.com",
+            "stamp2.login.microsoftonline.com",
+            ".office.com",
+            ".microsoft.com",
+            ".msocdn.com",
+            ".office.net",
+            ".onmicrosoft.com",
+            ".live.com",
+            ".linkedin.com",
+            ".microsoftstream.com",
+            ".sway.com",
+            ".onenote.com",
+            ".powerapps.com"
+        ]
+    }
+}
