@@ -16,6 +16,14 @@
                 "proxy": null
             },
             {
+                "ipAddressOrFQDN": "<tenantName>-files.sharepoint.com",
+                "proxy": null
+            },
+            {
+                "ipAddressOrFQDN": "<tenantName>-myfiles.sharepoint.com",
+                "proxy": null
+            },
+            {
                 "ipAddressOrFQDN": ".office365.com",
                 "proxy": null
             },
@@ -45,14 +53,6 @@
             },
             {
                 "ipAddressOrFQDN": ".dynamics.com",
-                "proxy": null
-            },
-            {
-                "ipAddressOrFQDN": "<tenantName>-files.sharepoint.com",
-                "proxy": null
-            },
-            {
-                "ipAddressOrFQDN": "<tenantName>-myfiles.sharepoint.com",
                 "proxy": null
             }
         ],
