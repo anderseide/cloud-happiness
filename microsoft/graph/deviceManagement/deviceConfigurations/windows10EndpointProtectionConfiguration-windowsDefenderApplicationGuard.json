@@ -1,0 +1,19 @@
+
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations/$entity",
+    "@odata.type": "#microsoft.graph.windows10EndpointProtectionConfiguration",
+    "description": "Strict Windows Defender Application Guard baseline",
+    "displayName": "Win10 - Windows Defender Application Guard",
+    "applicationGuardEnabled": true,
+    "applicationGuardBlockFileTransfer": "notConfigured",
+    "applicationGuardBlockNonEnterpriseContent": true,
+    "applicationGuardAllowPersistence": true,
+    "applicationGuardForceAuditing": true,
+    "applicationGuardBlockClipboardSharing": "blockBoth",
+    "applicationGuardAllowPrintToPDF": false,
+    "applicationGuardAllowPrintToXPS": false,
+    "applicationGuardAllowPrintToLocalPrinters": false,
+    "applicationGuardAllowPrintToNetworkPrinters": false,
+    "applicationGuardAllowVirtualGPU": true,
+    "applicationGuardAllowFileSaveOnHost": false
+}
