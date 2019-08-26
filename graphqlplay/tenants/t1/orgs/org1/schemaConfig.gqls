@@ -1,0 +1,14 @@
+type User {
+  id: String,
+  name: String
+}
+
+type Car {
+  id: String,
+  name: String
+}
+      
+type Query {
+  user(id: String): User,
+  car(id: String): Car
+}

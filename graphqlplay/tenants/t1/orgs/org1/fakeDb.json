@@ -1,0 +1,22 @@
+{
+  "user": {
+    "a": {
+      "id": "a",
+      "name": "anna anderson"
+    },
+    "b": {
+      "id": "b",
+      "name": "bob"
+    }
+  },
+  "car": {
+    "a": {
+      "id": "a",
+      "name": "audi"
+    },
+    "b": {
+      "id": "b",
+      "name": "ford"
+    }
+  }
+}

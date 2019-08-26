@@ -1,0 +1,12 @@
+[
+  {
+    "entryPoint": "user",
+    "params": ["id"],
+    "body": "console.log('ran user function from body');return fakeDb.user[id];"
+  },
+  {
+    "entryPoint": "car",
+    "params": ["id"],
+    "body": "console.log('ran car function from body');return fakeDb.car[id];"
+  }
+]
