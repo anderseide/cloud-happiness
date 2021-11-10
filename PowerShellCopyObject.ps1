@@ -1,8 +1,8 @@
 <#
-Simple script to copy parts of one object to another, with the posibility to define the name for the new key at destination
+Simple script to copy parts of one hashtable to another, with the posibility to define the name for the new key at destination
 #>
 
-# Sample PowerShell Object used as Source
+# Sample PowerShell Hashtable used as Source
 $SourceObject = @{
   "Key1" = "Value1"
   "Key2" = "Value2"
@@ -10,7 +10,7 @@ $SourceObject = @{
   "Key4" = "Value4"
 }
 
-# Empty PowerShell Object used as destination
+# Empty PowerShell Hashtable used as destination
 $DestinationObject = @{}
 
 # Define Keys to copy
